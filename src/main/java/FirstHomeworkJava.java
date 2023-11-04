@@ -1,11 +1,15 @@
 public class FirstHomeworkJava {
     public static void main(String[] args) {
 
+
+
         addition();
         System.out.println();
         equalsNotEquals();
         System.out.println();
         excess();
+        System.out.println();
+        combination();
         System.out.println();
 
     }
@@ -37,5 +41,27 @@ public class FirstHomeworkJava {
 
         System.out.println("Переполнение MAX_VALUE: " + hyperLong);
         System.out.println("Переполнение Short: " + sumShort);
+    }
+    private static void combination() {
+        int x = 32;
+        double y = 3.2;
+        double sumDouble = x + y;
+        double differenceDouble = x - y;
+        double productDouble = x * y;
+        double quotientDouble = x / y;
+
+        int sumInt = (int) (x + y);
+        int differenceInt = (int) (x - y);
+        int productInt = (int) (x * y);
+        int quotientInt = (int) (x / y);
+
+        System.out.println("Сумма " + sumDouble);
+        System.out.println("Разность " + differenceDouble);
+        System.out.println("Умножение " + productDouble);
+        System.out.println("Деление " + quotientDouble);
+        System.out.println("Сумма " + sumInt);
+        System.out.println("Разность " + differenceInt);
+        System.out.println("Умножение " + productInt);
+        System.out.println("Деление " + quotientInt);
     }
 }
